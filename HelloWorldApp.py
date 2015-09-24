@@ -16,7 +16,7 @@ from kivy.clock import Clock
 class Ball(Ellipse):
     def __init__(self, **kwargs):
         Ellipse.__init__(self, **kwargs)
-        self.speed = 0.001
+        self.speed = 1
 
     def fall(self):
         if self.pos[1] > 0:
