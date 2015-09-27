@@ -61,10 +61,10 @@ class Display(Widget):
             Ball(pos=(touch.x, touch.y), size=(10, 10))
 
 
-class HelloWorldApp(App):
+class FallingDrawingApp(App):
     def build(self):
         self.root = Builder.load_file("gui.kv")
         return self.root
 
 
-HelloWorldApp().run()
+FallingDrawingApp().run()
